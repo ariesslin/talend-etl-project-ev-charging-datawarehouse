@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_hzEl8JvREe-5PpigxqfS-w" name="ItalyCities" dataPackage="_hzFNAJvREe-5PpigxqfS-w" Server="Localhost 127.0.0.1" FilePath="/Users/ariesslin/Downloads/itac.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_hzFNAJvREe-5PpigxqfS-w" name="default" dataManager="_hzEl8JvREe-5PpigxqfS-w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_hzFNAZvREe-5PpigxqfS-w" id="_kR_78JvQEe-5PpigxqfS-w" label="ItalyCities">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hzFNApvREe-5PpigxqfS-w" label="city" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hzFNA5vREe-5PpigxqfS-w" label="lat" length="7" precision="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hzFNBJvREe-5PpigxqfS-w" label="lng" length="7" precision="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hzFNBZvREe-5PpigxqfS-w" label="country" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hzFNBpvREe-5PpigxqfS-w" label="iso2" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hzFNB5vREe-5PpigxqfS-w" label="admin_name" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hzFNCJvREe-5PpigxqfS-w" label="capital" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hzFNCZvREe-5PpigxqfS-w" label="population" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hzFNCpvREe-5PpigxqfS-w" label="population_proper" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

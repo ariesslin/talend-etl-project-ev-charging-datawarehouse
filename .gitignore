@@ -1,0 +1,17 @@
+# Ignore Talend binaries and logs
+*.class
+*.log
+*.bak
+*.swp
+
+# Ignore temporary files
+*.tmp
+*.cache
+*.history
+*.lock
+
+# Ignore configuration and hidden system files
+.metadata/
+bin/
+temp/
+.settings/
